@@ -70,19 +70,34 @@
         <div class="soundboard-container container">
             <div class="title"><h1>Stuff Sam Says</h1></div>
             <div class="function-container clearfix">
+                <!-- <div class="quote-container">
+                    <div class="quote" id="q1" onclick="StartOrStop('sounds/Biscuit.wav')"><p>Biscuit</p></div>
+                    <div class="quote" id="q2" onclick="StartOrStop('sounds/Bulking-Up.wav')"><p>Bulking up</p></div>
+                    <div class="quote" id="q3" onclick="StartOrStop('sounds/Byee.wav')"><p>Byee</p></div>
+                    <div class="quote" id="q4" onclick="StartOrStop('sounds/Eagle.wav')"><p>Eagle</p></div>
+                    <div class="quote" id="q5" onclick="StartOrStop('sounds/Guys.wav')"><p>Guys</p></div>
+                    <div class="quote" id="q6" onclick="StartOrStop('sounds/Kitties.wav')"><p>Kitties</p></div>
+                    <div class="quote" id="q7" onclick="StartOrStop('sounds/Pugs.wav')"><p>Pugs</p></div>
+                    <div class="quote" id="q8" onclick="StartOrStop('sounds/Selfie.wav')"><p>Selfie</p></div>
+                    <div class="quote" id="q9" onclick="StartOrStop('sounds/Sneezecough.wav')"><p>Sneezecough</p></div>
+                    <div class="quote" id="q10" onclick="StartOrStop('sounds/Spicy-meatball.wav')"><p>Meatball</p></div>
+                    <div class="quote" id="q11" onclick="StartOrStop('sounds/Yesterdays-Jam.wav')"><p>Jam</p></div>
+                    <audio id="myAudio"></audio>
+                </div> -->
                 <div class="quote-container">
                     <ul>
-                        <li class="quote"><a class="quote-audio" id="q1" href="sounds/Biscuit.wav">Biscuit</a></li>
-                        <li class="quote"><a class="quote-audio" id="q2" href="sounds/Bulking-Up.wav">Bulking up</a></li>
-                        <li class="quote"><a class="quote-audio" id="q3" href="sounds/Byee.wav">Byee</a></li>
-                        <li class="quote"><a class="quote-audio" id="q4" href="sounds/Eagle.wav">Eagle</a></li>
-                        <li class="quote"><a class="quote-audio" id="q5" href="sounds/Guys.wav">Guys</a></li>
-                        <li class="quote"><a class="quote-audio" id="q6" href="sounds/Kitties.wav">Kitties</a></li>
-                        <li class="quote"><a class="quote-audio" id="q7" href="sounds/Pugs.wav">Pugs</a></li>
-                        <li class="quote"><a class="quote-audio" id="q8" href="sounds/Selfie.wav">Selfie</a></li>
-                        <li class="quote"><a class="quote-audio" id="q9" href="sounds/Sneezecough.wav">Sneezecough</a></li>
-                        <li class="quote"><a class="quote-audio" id="q10" href="sounds/Spicy-meatball.wav">Meatball</a></li>
-                        <li class="quote"><a class="quote-audio" id="q11" href="sounds/Yesterdays-Jam.wav">Jam</a></li>
+                        <li><a class="quote" id="q1" src="sounds/Biscuit.wav"><p>Biscuit</p></a></li>
+                        <li><a class="quote" id="q2" src="sounds/Bulking-Up.wav"><p>Bulking up</p></a></li>
+                        <li><a class="quote" id="q3" src="sounds/Byee.wav"><p>Byee</p></a></li>
+                        <li><a class="quote" id="q4" src="sounds/Eagle.wav"><p>Eagle</p></a></li>
+                        <li><a class="quote" id="q5" src="sounds/Guys.wav"><p>Guys</p></a></li>
+                        <li><a class="quote" id="q6" src="sounds/Kitties.wav"><p>Kitties</p></a></li>
+                        <li><a class="quote" id="q7" src="sounds/Pugs.wav"><p>Pugs</p></a></li>
+                        <li><a class="quote" id="q8" src="sounds/Selfie.wav"><p>Selfie</p></a></li>
+                        <li><a class="quote" id="q9" src="sounds/Sneezecough.wav"><p>Sneezecough</p></a></li>
+                        <li><a class="quote" id="q10" src="sounds/Spicy-meatball.wav"><p>Meatball</p></a></li>
+                        <li><a class="quote" id="q11" src="sounds/Yesterdays-Jam.wav"><p>Jam</p></a></li>
+
                     </ul>
                     
                     <!--<audio id="myAudio"></audio>-->

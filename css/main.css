@@ -52,6 +52,7 @@ h1 {
     width: 141px;
     min-width: 141px;
     cursor: pointer;
+    display: block;
 }
 
 .quote:nth-child(3n+3) {
